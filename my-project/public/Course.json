@@ -5,7 +5,7 @@
         "Title": "Introduction to C Programming",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "15000",
-        "Reading_Time": "5"
+        "Reading_Time": 5
     },
     {
         "ID": 2,
@@ -13,7 +13,7 @@
         "Title": "Introduction to Algorithms",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "10000",
-        "Reading_Time": "2"
+        "Reading_Time": 2
     },
     {
         "ID": 3,
@@ -21,7 +21,7 @@
         "Title": "Introduction to C++ for DSA",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "20000",
-        "Reading_Time": "4"
+        "Reading_Time": 4
     },
     {
         "ID": 4,
@@ -29,7 +29,7 @@
         "Title": "Basic Data Structures",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "23000",
-        "Reading_Time": "3"
+        "Reading_Time": 3
     },
     {
         "ID": 5,
@@ -37,7 +37,7 @@
         "Title": "Introduction to OOP Python",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "35000",
-        "Reading_Time": "2"
+        "Reading_Time": 2
     },
     {
         "ID": 6,
@@ -45,7 +45,7 @@
         "Title": "Software Engineering",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "19000",
-        "Reading_Time": "6"
+        "Reading_Time": 6
     },
     {
         "ID": 7,
@@ -53,7 +53,7 @@
         "Title": "AWS, Cloud Computing",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "10000",
-        "Reading_Time": "5"
+        "Reading_Time": 5
     },
     {
         "ID": 8,
@@ -61,7 +61,7 @@
         "Title": "Database (MySQL)",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "Price": "15000",
-        "Reading_Time": "3"
+        "Reading_Time": 3
     },
     {
         "ID": 9,
@@ -69,6 +69,6 @@
         "Title": "Problem-Solving Part",
         "Description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..",
         "Price": "25000",
-        "Reading_Time": "2"
+        "Reading_Time": 2
     }
 ]
