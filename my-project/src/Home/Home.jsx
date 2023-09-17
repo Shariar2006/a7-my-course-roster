@@ -27,6 +27,9 @@ const Home = () => {
                 hrs += singleCourse.Reading_Time
             ));
             const totalRemainig = 20 - hrs
+            if(hrs > 20){
+                return alert ('Can not select more than 20 hours!')
+            }
             setHrs(hrs)
             setRemaining(totalRemainig)
 
@@ -37,7 +40,7 @@ const Home = () => {
 
     return (
         <div className='flex-1 grid grid-flow-row md:grid-flow-col justify-evenly gap-3'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4'>
                 {
                     allCourses.map((course) => (
                         <div key={course.ID} className="w-80 bg-white p-5 rounded-lg">
@@ -60,7 +63,7 @@ const Home = () => {
                 }
             </div>
             <div>
-                <Courses totalPrice={totalHrs} remaining={remaining} selectCourse={selectCourse}></Courses>
+                <Courses totalHrs={totalHrs} remaining={remaining} selectCourse={selectCourse}></Courses>
             </div>
         </div>
     );
